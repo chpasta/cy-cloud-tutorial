@@ -2,7 +2,8 @@
   "scripts": {
     "cypress:open": "cypress open",
     "cypress:verify": "cypress verify",
-    "cypress:info": "cypress info"
+    "cypress:info": "cypress info",
+    "test": "cypress open"
 
   },
   "license": "MIT",
