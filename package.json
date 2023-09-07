@@ -2,7 +2,8 @@
   "scripts": {
     "cypress:open": "cypress open",
     "cy:verify": "cypress verify",
-    "cy:info": "cypress info"
+    "cy:info": "cypress info",
+    "start": "node server.js"
   },
   "license": "MIT",
   "devDependencies": {
