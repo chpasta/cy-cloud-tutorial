@@ -1,14 +1,14 @@
 {
   "scripts": {
     "start": "cypress open",
-    "cypress:open": "cypress open",
+
     "cy:verify": "cypress verify",
     "cy:info": "cypress info"
     
   },
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^13.1.0"
+    "cypress": "^10.0.0"
   },
   "name": "cy-cloud-tutorial",
   "description": "",
