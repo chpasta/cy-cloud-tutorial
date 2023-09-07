@@ -1,8 +1,8 @@
 {
   "scripts": {
     "cypress:open": "cypress open",
-    "cypress:verify": "cypress verify",
-    "cypress:info": "cypress info",
+    "cy:verify": "cypress verify",
+    "cy:info": "cypress info",
     "test": "cypress open"
 
   },
