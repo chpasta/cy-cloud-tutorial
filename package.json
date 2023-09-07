@@ -2,10 +2,7 @@
   "scripts": {
     "cypress:open": "cypress open",
     "cy:verify": "cypress verify",
-    "cy:info": "cypress info",
-    "start": "node ./scripts/start",
-    "cy:run": "cypress run",
-    "test": "start-server-and-test start http://localhost:3030 cy:run"
+    "cy:info": "cypress info"
   },
   "license": "MIT",
   "devDependencies": {
