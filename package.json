@@ -1,14 +1,15 @@
 {
   "scripts": {
-    "start": "cypress open",
-
+    "start": "my-server -p 3030",
+    "cy:run": "cypress run",
+    "test": "start-server-and-test start http://localhost:3030 cy:run",
     "cy:verify": "cypress verify",
     "cy:info": "cypress info"
-    
   },
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^10.0.0"
+    "cypress": "^10.11.0",
+    "start-server-and-test": "^2.0.0"
   },
   "name": "cy-cloud-tutorial",
   "description": "",
